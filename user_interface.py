@@ -49,7 +49,7 @@ def main():
     game_state = new_game(columns_input, rows_input)
     print("Connect Four Game Created!")
 
-    while True:
+    while True: 
         try: 
             print(f"Current player: {'RED' if game_state.turn == 1 else 'YELLOW'}")
             print("Current game board:")           
