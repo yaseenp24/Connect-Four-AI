@@ -12,7 +12,7 @@ def read_host() -> str:
             print('Please specify a host (either a name or an IP address)')
         else:
             return host
-
+ 
 def read_port() -> int:
     '''
     This function reads the port number 
