@@ -1,5 +1,5 @@
 from collections import namedtuple
-
+ 
 EMPTY = 0
 RED = 1
 YELLOW = 2
