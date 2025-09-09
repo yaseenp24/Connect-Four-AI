@@ -2,7 +2,7 @@ import socket
 from typing import List
 def read_host() -> str:
     '''
-    This function reads the host connection 
+    This function reads the host connection  
     '''
 
     while True:
