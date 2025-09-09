@@ -4,7 +4,7 @@ from connectfour import GameState, InvalidMoveError, GameOverError, new_game, co
 def check(game_state):
     '''
     This function receives the move from the user and determines
-    whether its a drop or a pop command
+    whether its a drop or a pop command. this determines what it should do next
     '''
     while True:
         column = input(f"Enter the column to make a move (1-{columns(game_state)}): ")
